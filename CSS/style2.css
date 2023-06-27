@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    
+}
+
+.container {
+    background-color: #eee;
+    padding: 15px;
+    display: flex;
+ 
+}
+
+.escritorio {
+    background-color: rgba(245, 245, 245, 0.623);
+    padding: 10px;
+
+}
+
+.funcionario {
+    background-color: rgba(245, 245, 245, 0.623);
+    padding: 10px;
+
+}
+
+aside {
+    background-color: rgba(245, 245, 245, 0.623);
+    padding: 10px;
+
+}
+

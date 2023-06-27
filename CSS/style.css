@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
     display: grid;
+    background-color: #f3f3f3;
   }
 
   body {
     font-family: "Fira sans", Arial, Helvetica, sans-serif;
     margin: 0px;
-    color: #141414;
+    grid-template-columns: 2fr 1fr;
   }
 
   h1 {
     font-size: 3rem;
+    align-items: self-start;
+    padding-top: 20px;
   }
   
-  h1,
   h2,
   h4,
   p {
@@ -35,7 +37,7 @@
     position: fixed;
     right: 10px;
     bottom: 10px;
-    box-shadow: 3px 3px 10px #333;
+    box-shadow: 3px 3px 10px #ada8a8;
 
   }
 
@@ -53,6 +55,7 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center; /*Na hora da quebra os itens ficam alinhados*/
+    background-color: #474444;
   }
   
   .header-menu a {
@@ -60,28 +63,38 @@
     line-height: 1.3; /*Altura de linha*/
     padding: 10px 20px;
     text-decoration: none;
-    color: #141414;
+    color: #9c9595;
     display: block; /*Para assumir corretamente os valores do Padding*/
   }
 
-  section {
+ 
+  .section1 {
     max-width: 1200px;
-    padding: 30px 20px;
+    padding: 20px 10px;
     margin: 0 auto;
-    display: flex;
-    gap: 100px;
-    flex-wrap: wrap;
+    /*display: grid;*/
+    gap: 10px;
+    display:flex;
+    
   }
 
-  section p {
+  .section2 {
+    max-width: 1200px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    /*display: grid;*/
+    gap: 10px;
+    display:flex;
+    
+  }
+  .section1 p {
     max-width: 1200px;
     padding: 20px 20px;
     margin: 0 auto;
-    display: flex-start;
-    gap: 100px;
+    display: flex;
   }
 
-  section h2 {
+  .section1, section2 h2 {
     font-size: 2rem;
   }
 
@@ -89,9 +102,8 @@
    align-content:center;
    padding-left: 10px;
    padding-bottom: 20px;
-
-    
   }
+
 
 
 
