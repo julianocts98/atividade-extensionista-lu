@@ -56,7 +56,7 @@ aside {
 }
 
 .container {
-  background-color: #eee;
+  /* background-color: #f0eeee;*/
   padding: 15px;
   display: flex;
   min-height: calc(100vh - 4.5rem - 5.875rem);
