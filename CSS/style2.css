@@ -45,24 +45,22 @@ aside {
 }
 
 .container {
- /* max-width: 87.5rem;*/
+  /* max-width: 87.5rem;*/
   padding: 1rem;
-  margin:auto;
+  margin: auto;
   background: rgb(229, 239, 240);
-  
 }
 
 span {
-  font-family:fantasy;
+  font-family: fantasy;
   font-size: 4rem;
   font-style: italic;
-  
 }
 
 nav {
   display: flex;
-  align-items:center;
-  justify-content:space-around;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .menu {
@@ -78,7 +76,6 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  
 }
 
 nav ul li a {
@@ -88,12 +85,10 @@ nav ul li a {
   color: gray;
   border-radius: 30px;
   transition: 0.6s;
-  
 }
 
 nav ul li a:hover {
   background-color: rgba(185, 196, 207, 0.527);
-  
 }
 
 .container-body {
