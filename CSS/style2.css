@@ -126,7 +126,7 @@ aside {
   height: 3.75rem;
 }
 
-footer p {
+.footer p {
   display: flex;
   align-items: center;
   justify-content: center;
