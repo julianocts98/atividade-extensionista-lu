@@ -116,14 +116,17 @@ aside {
   padding: 10px;
 }
 
+
+
+.footer {
+  position: relative;
+  height: 3.75rem;
+}
+
 #link-topo {
   position: absolute;
   bottom: 10px;
   right: 3px;
-}
-
-.footer {
-  height: 3.75rem;
 }
 
 .footer p {
